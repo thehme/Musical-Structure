@@ -3,9 +3,9 @@ package com.example.android.musicalstructure;
 public class Song {
     private String songName;
     private String artistName = "Donal Glover";
-    private float songDuration;
+    private String songDuration;
 
-    public Song(String name, float duration) {
+    public Song(String name, String duration) {
         songName = name;
         songDuration = duration;
     }
@@ -18,7 +18,7 @@ public class Song {
         return artistName;
     }
 
-    public float getSongDuration() {
+    public String getSongDuration() {
         return songDuration;
     }
 }
