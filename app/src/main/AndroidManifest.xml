@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AwakenMyLove" />
+        <activity android:name=".BecauseTheInternet" />
+        <activity android:name=".Camp" />
+        <activity android:name=".Kauai" />
+        <activity android:name=".Royalty" />
+        <activity android:name=".ThisIsAmerica" />
+        <activity android:name=".EP" />
+        <activity android:name=".Mmxxl"></activity>
     </application>
 
 </manifest>
