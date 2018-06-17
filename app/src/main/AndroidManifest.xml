@@ -16,14 +16,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AwakenMyLoveActivity" />
-        <activity android:name=".BecauseTheInternetActivity" />
-        <activity android:name=".CampActivity" />
-        <activity android:name=".KauaiActivity" />
-        <activity android:name=".RoyaltyActivity" />
-        <activity android:name=".ThisIsAmericaActivity" />
-        <activity android:name=".EpActivity" />
-        <activity android:name=".MmxxlActivity"></activity>
+        <activity
+            android:name=".AwakenMyLoveActivity"
+            android:label="@string/awaken_my_love"/>
+        <activity
+            android:name=".BecauseTheInternetActivity"
+            android:label="@string/because_the_internet"/>
+        <activity
+            android:name=".CampActivity"
+            android:label="@string/camp"/>
+        <activity
+            android:name=".KauaiActivity"
+            android:label="@string/kauai"/>
+        <activity
+            android:name=".RoyaltyActivity"
+            android:label="@string/royalty"/>
+        <activity
+            android:name=".ThisIsAmericaActivity"
+            android:label="@string/this_is_america"/>
+        <activity
+            android:name=".EpActivity"
+            android:label="@string/ep"/>
+        <activity
+            android:name=".MmxxlActivity"
+            android:label="@string/mmxxl">
+        </activity>
     </application>
 
 </manifest>
