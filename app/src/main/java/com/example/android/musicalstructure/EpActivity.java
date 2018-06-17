@@ -3,7 +3,7 @@ package com.example.android.musicalstructure;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class EP extends AppCompatActivity {
+public class EpActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Musical Structure</string>
+    <string name="awaken_my_love">Awaken My Love</string>
+    <string name="camp">Camp</string>
+    <string name="because_the_internet">Because The Internet</string>
+    <string name="kauai">Kauai</string>
+    <string name="mmxxl">MMXXL</string>
+    <string name="this_is_america">This Is America</string>
+    <string name="royalty">Royalty</string>
+    <string name="eo">EP</string>
 </resources>

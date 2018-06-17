@@ -3,7 +3,7 @@ package com.example.android.musicalstructure;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Mmxxl extends AppCompatActivity {
+public class MmxxlActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
