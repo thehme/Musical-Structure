@@ -18,28 +18,36 @@
         </activity>
         <activity
             android:name=".AwakenMyLoveActivity"
-            android:label="@string/awaken_my_love"/>
+            android:label="@string/awaken_my_love"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".BecauseTheInternetActivity"
-            android:label="@string/because_the_internet"/>
+            android:label="@string/because_the_internet"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".CampActivity"
-            android:label="@string/camp"/>
+            android:label="@string/camp"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".KauaiActivity"
-            android:label="@string/kauai"/>
+            android:label="@string/kauai"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".RoyaltyActivity"
-            android:label="@string/royalty"/>
+            android:label="@string/royalty"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".ThisIsAmericaActivity"
-            android:label="@string/this_is_america"/>
+            android:label="@string/this_is_america"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".EpActivity"
-            android:label="@string/ep"/>
+            android:label="@string/ep"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MmxxlActivity"
-            android:label="@string/mmxxl">
+            android:label="@string/mmxxl"
+            android:parentActivityName=".MainActivity">
         </activity>
     </application>
 
