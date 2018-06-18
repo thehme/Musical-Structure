@@ -5,15 +5,18 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     android:padding="16dp">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/song_name_view"
-        tools:text="song"/>
+        tools:text="song"
+        android:textColor="@color/colorTextOnPrimary"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/artist_name_view"
-        tools:text="artist"/>
+        tools:text="artist"
+        android:textColor="@color/colorTextOnPrimary"/>
 </LinearLayout>
