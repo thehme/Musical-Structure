@@ -2,21 +2,45 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
     android:padding="16dp">
-    <TextView
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.95"
         android:layout_height="wrap_content"
-        android:id="@+id/song_name_view"
-        tools:text="song"
-        android:textColor="@color/colorTextOnPrimary"/>
-    <TextView
-        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/song_name_view"
+            tools:text="song"
+            android:textSize="20sp"
+            android:textColor="@color/colorTextOnPrimary"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/song_duration_view"
+            tools:text="duration"
+            android:textColor="@color/colorTextOnPrimary"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/artist_name_view"
+            tools:text="artist"
+            android:textColor="@color/colorTextOnPrimary"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.05"
         android:layout_height="wrap_content"
-        android:id="@+id/artist_name_view"
-        tools:text="artist"
-        android:textColor="@color/colorTextOnPrimary"/>
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_play_arrow_24px"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
 </LinearLayout>
